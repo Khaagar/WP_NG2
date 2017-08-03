@@ -1,0 +1,16 @@
+.post{
+    padding: 20px;
+    margin: 20px;
+    width:40%;
+    border: 2px solid;
+    border-radius:5px;
+    border-color:black;
+    display:block;
+}
+
+#title{
+    font-size: 32px;
+    text-transform: uppercase;
+
+
+}

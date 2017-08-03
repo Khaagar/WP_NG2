@@ -1,0 +1,12 @@
+<h1>Posty</h1>
+
+<div class="post" *ngFor="let post of posts">
+<article *ngIf="post">
+  <header>
+    <span id="title">{{post.title.rendered}}</span>
+  </header>
+
+  <section class="flow-text" [innerHtml]="post.content.rendered" prism></section>
+</article>
+</div>
+
